@@ -1,0 +1,118 @@
+QWidget{
+        background-color:#25333c;
+        color: #fff;
+        font-family:  sans-serif;
+        font-size: 17px;
+        letter-spacing: 1px;
+}
+
+QHeaderView{
+        background-color:#25333c;
+
+}
+
+QTableView{
+        border: 1px solid #738181;
+}
+
+QLabel
+{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+QMainWindow QLabel
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+QLineEdit
+{
+    border: 1px solid #738181;
+}
+
+QScrollBar:horizontal {
+background: #32CC99;
+}
+
+QComboBox::hover
+{
+    background-color:#0C7255;
+}
+
+QComboBox
+{
+    border-radius: 0px;
+    background-color:#1ab188;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+QProgressBar {
+border: 1px solid #738181;
+padding: 1px;
+border-bottom-right-radius: 7px;
+border-bottom-left-radius: 7px;
+background-color:#fff;
+text-align: bottom;
+font-size: 20px;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+QProgressBar::chunk {
+background: QLinearGradient( x1: 0, y1: 0, x2: 1, y2: 0,
+stop: 0 #1ab188,
+stop: 1 #0C7255 );
+border-bottom-right-radius: 7px;
+border-bottom-left-radius: 7px;
+border: 1px solid black;
+}
+
+QHeaderView::section{
+        background-color:#1ab188;
+        border:none;
+}
+
+QHeaderView::section::hover{
+          background-color:#0C7255;
+}
+
+QPushButton {
+    top:50%;
+    background-color:#1ab188;
+    color: #fff;
+    border:none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+
+
+QPushButton#ChangeDayButton {
+    top:50%;
+    background-color:#1ab188;
+    color: #fff;
+    border:none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+QPushButton#ChangeDayButton::hover {
+      background-color:#0C7255;
+
+}
+
+QPushButton:hover {
+      background-color:#0C7255;
+  }
